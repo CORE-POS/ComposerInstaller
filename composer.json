@@ -1,0 +1,24 @@
+{
+    "name": "corepos/composer-installer",
+    "description": "A composer plugin to install CORE POS plugins",
+    "license": "Apache2",
+    "type":  "composer-plugin",
+    "version": "1.0.0",
+    "autoload": {
+        "psr4": {
+            "COREPOS\\ComposerInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "COREPOS\\ComposerInstaller\\Plugin"
+    },
+    "authors": [
+        {
+            "name": "Andy Theuninck",
+            "email": "andy@gohanman.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    }
+}
