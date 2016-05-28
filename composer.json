@@ -3,11 +3,12 @@
     "description": "A composer plugin to install CORE POS plugins",
     "license": "Apache2",
     "type":  "composer-plugin",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "autoload": {
         "psr-4": {
             "COREPOS\\ComposerInstaller\\": "src/"
-        }
+        },
+        "exclude-from-classmap": ["/test"]
     },
     "extra": {
         "class": "COREPOS\\ComposerInstaller\\Plugin"
@@ -20,5 +21,9 @@
     ],
     "require": {
         "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3",
+        "composer/composer": "^1.1"
     }
 }
