@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9675a93b608a89b72e44e4e3563e1ed",
-    "packages": [
+    "content-hash": "007161a1f7c03632f09113df15b33091",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "composer/ca-bundle",
             "version": "1.2.9",
@@ -2850,7 +2851,6 @@
             "time": "2020-07-08T17:02:28+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
