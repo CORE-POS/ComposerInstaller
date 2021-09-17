@@ -9,7 +9,7 @@ use COREPOS\ComposerInstaller\Installer;
 use COREPOS\ComposerInstaller\Plugin;
 use PHPUnit\Framework\TestCase;
 
-class Test extends PHPUnit_Framework_TestCase
+class Test extends TestCase
 {
     public function testPlugin()
     {
