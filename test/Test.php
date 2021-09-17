@@ -7,6 +7,7 @@ use Composer\IO\NullIO;
 use Composer\Package\Package;
 use COREPOS\ComposerInstaller\Installer;
 use COREPOS\ComposerInstaller\Plugin;
+use PHPUnit\Framework\TestCase;
 
 class Test extends PHPUnit_Framework_TestCase
 {
